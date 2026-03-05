@@ -1,0 +1,29 @@
+{
+  "name": "powerapps-skill",
+  "version": "1.0.0",
+  "description": "CLI para gerar projetos completos de Power Apps (Canvas Apps)",
+  "keywords": ["powerapps", "canvas-app", "power-platform", "power-fx", "cli"],
+  "homepage": "https://github.com/SEU_USUARIO/powerapps-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USUARIO/powerapps-skill.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "powerapps-skill": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^10.1.0",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
